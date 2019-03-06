@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+				</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</nav>
+
+<div class="container">
+<div class="jumbotron">
+	<h1><i class="fas fa-camera-retro"></i>   The Image Gallery</h1>
+	<p>A bunch of outstanding images that I didn't take but one of my kids did!</p>
+</div>
+
+  <div class="row">
+  	
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/crZseuy.png">
+  	</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/mhwIJP0.png">
+  		</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/bRoWO4z.jpg">
+  		</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/KikpMXS.jpg">
+  	</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/3dkvFW1.jpg">
+  		</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/IbX9eWK.jpg">
+  		</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/AvGFgN3.png">
+  	</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/nrrCqOM.png">
+  		</div>
+  	</div>
+  	<div class="col-lg-4 col-sm-6">
+  		<div class="thumbnail">
+  		<img src="https://i.imgur.com/OclQEjV.png">
+  		</div>
+  	</div>
+  </div>
+</div>
+
+<p><strong>Email:</strong> <a href="mailto:hrhmerc@gmail.com">mom's email address for safety if this goes live</a></p>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap.3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
